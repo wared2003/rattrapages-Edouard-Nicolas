@@ -1,2 +1,3 @@
 node_modules/*
 /02 – Architecture front-end/dist/output.css
+dist/*
