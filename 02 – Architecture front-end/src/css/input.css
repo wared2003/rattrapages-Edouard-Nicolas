@@ -14,12 +14,12 @@ header{
 /*button components*/
 .button{
     @apply rounded-lg bg-orange text-2xl h-16 w-64 flex flex-row items-center justify-center;
+    transition: filter .5s;
 }
 .button a{
-    @apply font-montserrat text-xl font-semibold text-white uppercase;
+    @apply font-montserrat text-xl font-semibold text-white uppercase font-bold;
 }
 .button:hover{
-    transition: filter .5s;
     filter: brightness(90%);
 }
 
@@ -32,6 +32,11 @@ header{
 }
 .button.button--call a{
     @apply text-orange font-semibold text-base;
+}
+
+/*form submit btn*/
+.button.button--submit{
+    @apply border-none bg-green w-full text-white font-semibold text-2xl uppercase;
 }
 
 /*custom width*/
@@ -53,6 +58,10 @@ header{
     max-width: 478px;
 }
 
+.w-775px{
+    width: 775px;
+}
+
 /*contact us card*/
 
 .contact-us img{
@@ -63,6 +72,9 @@ header{
 }
 .hire-a-tutorimg{
     width: 293px;
+}
+.w-693px{
+    width: 693px;
 }
 
 /*section mockup*/
@@ -80,4 +92,15 @@ header{
     text-align: center;
     grid-template-columns: 2fr 2fr 1fr 1fr;
 
+}
+
+/*contact form*/
+input::placeholder{
+    color: #707070;
+}
+
+.drop-shadow{
+    box-shadow: 4px 6px 35px 5px rgba(149,149,149,0.43);
+    -webkit-box-shadow: 4px 6px 35px 5px rgba(149,149,149,0.43);
+    -moz-box-shadow: 4px 6px 35px 5px rgba(149,149,149,0.43);
 }
