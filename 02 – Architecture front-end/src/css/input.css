@@ -74,7 +74,7 @@ header{
 .formul-grid-row{
     margin-top: 16px;
     display: grid;
-    text-align: right;
-    grid-template-columns: 100px  200px 130px 95px;
+    text-align: center;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
 
 }
