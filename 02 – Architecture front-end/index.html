@@ -1,15 +1,246 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--    tailwind compiled css-->
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <!--    google font-->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet">
+
+    <!--    tailwind compiled css-->
     <link href="./dist/output.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Tutor Site</title>
 </head>
-<body class="text-center">
-    <p class="text-center">txt centré</p>
+<body>
+
+<!--hero banner-->
+<header class="w-full bg-[url('../assets/header-bg.png')]">
+
+    <!--    navbar-->
+    <nav class="w-full flex flex-row items-center justify-between py-16 px-36">
+        <div>
+            <img alt="logo de tutor site" src="./assets/logo.png">
+        </div>
+        <div class="flex flex-row items-center gap-x-8">
+            <a class="text-white uppercase font-montserrat text-base" href="#">how it works</a>
+            <a class="text-white uppercase font-montserrat text-base" href="#">subject</a>
+            <a class="text-white uppercase font-montserrat text-base" href="#">prices</a>
+            <a class="text-white uppercase font-montserrat text-base" href="#">contact us</a>
+            <a class="text-white uppercase font-montserrat text-base" href="#">information </a>
+        </div>
+        <div class="button button--call relative">
+            <p class="uppercase text-xs font-medium text-white absolute bottom-12 right-0">hepldesk</p>
+            <img src="assets/call.png">
+            <a>+11 (0) 231 678 0000</a>
+        </div>
+    </nav>
+    <!--    navbar end -->
+
+    <!--hero banner text -->
+    <div>
+        <h1 class="mt-52 font-lato text-white font-light text-5xl text-center">Guided <span class="font-bold">online tutoring</span>
+            through online chat and email</h1>
+        <div class="button mx-auto mt-10">
+            <a href="#">hire a tutor</a>
+        </div>
+    </div>
+</header>
+<!--hero banner text end -->
+
+<!--hero banner end-->
+
+<!--statistique-->
+<section class="flex flex-row justify-center gap-x-80 mt-36">
+    <div class="flex flex-row justify-center items-center max-w-xl gap-x-8">
+        <img src="./assets/verified.png" class="h-36 w-36" alt="verified icon">
+        <p class="text-3xl text-light-grey">Over <span class="text-grey font-bold font-montserrat">500</span> <br>
+            Subjects available. <br> A tutor for every need.</p>
+    </div>
+
+    <div class="flex flex-row justify-center items-center max-w-xl gap-x-8 ">
+        <img src="./assets/rating.png" class="h-36 w-36" alt="rating icon">
+        <p class="text-3xl text-light-grey">Over 1.5 million <br> top ratings and <br> reviews</p>
+    </div>
+
+</section>
+<!--statistique bottom line-->
+<div class="bg-extraLightGrey w-10/12 h-2 mt-24 mx-auto rounded-full"></div>
+
+<!--statistiques end -->
+
+<!--how it works -->
+<section class="mt-24">
+    <h2 class="uppercase text-center text-4xl text-black mb-24">how it works</h2>
+
+    <!--        contact us card-->
+    <div class="flex flex-row justify-center gap-32 items-center contact-us">
+        <div>
+            <img src="assets/contactUs.png">
+        </div>
+        <div class="m-w-430px">
+            <h3 class="text-4xl text-grey">First: <span class="text-orange">Contact Us</span></h3>
+            <p class="text-light-grey text-2xl">
+                Contact us via Email or Phone with your
+                Tutoring needs and we match the most
+                suitably qualifed tutors for a Free 30
+                Mins demo...
+            </p>
+        </div>
+    </div>
+    <!--        contact us card end -->
+
+    <!--        svg separator-->
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 1902.719 174.154" class="w-full">
+        <path id="Tracé_209" data-name="Tracé 209"
+              d="M576.289,2053.347s310.959-130.13,1000.478-86.19,901.332-86.19,901.332-86.19"
+              transform="translate(-575.903 -1880.115)" fill="none" stroke="#a5a5a5" stroke-width="2"
+              stroke-dasharray="5"/>
+    </svg>
+    <!--        svg separator end -->
+
+    <!--        book your demo card -->
+    <div class="flex flex-row justify-center gap-32 items-center book-your-demo">
+        <div class="m-w-430px text-right">
+            <h3 class="text-4xl text-grey">Book <span class="text-orange">your Demo</span></h3>
+            <p class="text-light-grey text-2xl">
+                Contact us via Email or Phone with your
+                Tutoring needs and we match the most
+                suitably qualifed tutors for a Free 30
+                Mins demo...
+            </p>
+        </div>
+        <div>
+            <img src="assets/book-your-demo.png">
+        </div>
+    </div>
+    <!--        book your demo card end -->
+
+    <!--svg separator-->
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 1920.903 174.158">
+        <path id="Tracé_215" data-name="Tracé 215"
+              d="M2496.289,2053.347s-313.934-130.13-1010.047-86.19-909.953-86.19-909.953-86.19"
+              transform="translate(2496.672 2054.271) rotate(180)" fill="none" stroke="#a5a5a5" stroke-width="2"
+              stroke-dasharray="5"/>
+    </svg>
+    <!-- svg separator end  -->
+
+    <!-- Hire a tutor -->
+    <div class="flex flex-row justify-center gap-32 items-center hire-a-tutor">
+        <div>
+            <img src="assets/hire-a-tutor.png">
+        </div>
+        <div class="m-w-430px">
+            <h3 class="text-4xl text-grey">Hire a <span class="text-orange">Tutor</span></h3>
+            <p class="text-light-grey text-2xl">
+                If you happy to go ahead with the
+                your selected tutor, we will make the
+                booking for you at a mutually
+                convenient time..
+            </p>
+        </div>
+    </div>
+    <!-- hire a tutor end -->
+
+</section>
+<!--how it works end-->
+
+<!--section mockup-->
+<section class="w-full bg-[url('../assets/mockup.png')] mockup mt-24 pt-10 bg-no-repeat bg-cover">
+<!--    laptop img-->
+    <img src="./assets/video-player.png"  class="mx-auto" alt="video player in the screen of a laptop mockup">
+
+    <!--    tags-->
+    <div class="flex flex-row flex-wrap justify-center mt-24 gap-x-4 gap-y-4 m-w-980px mx-auto">
+        <div class="h-12 px-8 rounded-lg flex flex-row items-center justify-center border border-orange w-fit"><p class="font-montserrat uppercase text-white text-base font-bold">math</p></div>
+        <div class="h-12 px-8 rounded-lg flex flex-row items-center justify-center border border-orange w-fit"><p class="font-montserrat uppercase text-white text-base font-bold">chemistry</p></div>
+        <div class="h-12 px-8 rounded-lg flex flex-row items-center justify-center border border-orange w-fit"><p class="font-montserrat uppercase text-white text-base font-bold">biology</p></div>
+        <div class="h-12 px-8 rounded-lg flex flex-row items-center justify-center border border-orange w-fit"><p class="font-montserrat uppercase text-white text-base font-bold">physics</p></div>
+        <div class="h-12 px-8 rounded-lg flex flex-row items-center justify-center border border-orange w-fit"><p class="font-montserrat uppercase text-white text-base font-bold">computer science</p></div>
+        <div class="h-12 px-8 rounded-lg flex flex-row items-center justify-center border border-orange w-fit"><p class="font-montserrat uppercase text-white text-base font-bold">english literature</p></div>
+        <div class="h-12 px-8 rounded-lg flex flex-row items-center justify-center border border-orange w-fit"><p class="font-montserrat uppercase text-white text-base font-bold">french</p></div>
+        <div class="h-12 px-8 rounded-lg flex flex-row items-center justify-center border border-orange w-fit"><p class="font-montserrat uppercase text-white text-base font-bold">accounting</p></div>
+        <div class="h-12 px-8 rounded-lg flex flex-row items-center justify-center border border-orange w-fit"><p class="font-montserrat uppercase text-white text-base font-bold">other subjects</p></div>
+    </div>
+    <!--    tags end-->
+
+</section>
+<!--section mockup end-->
+
+<!--section available lessons-->
+    <section class="pt-24 ">
+
+<!--        array header-->
+        <div class="flex flex-row items-center justify-between w-fit gap-x-12 px-10 mb-2">
+            <div class="px-10 flex flex-row justify-between items-center w-fit b bg-orange rounded-2xl h-16 uppercase gap-x-12">
+                <p class="text-base text-white font-bold font-montserrat">age of student</p>
+                <p class="text-base text-white font-bold font-montserrat">uk school year</p>
+                <p class="text-base text-white font-bold font-montserrat">stage</p>
+                <p class="text-base text-white font-bold font-montserrat">$/hr</p>
+            </div>
+            <p class="uppercase text-orange text-base font-bold">pay for <br> lessons</p>
+        </div>
+
+<!--        array header end-->
+
+<!--        array items -->
+        <div class="flex flex-row items-end justify-start px-10 ">
+            <div class="px-10 items-center bg-bcg-lightgrey rounded-tl-2xl rounded-bl-2xl rounded-d-a h-16 uppercase  wi-866px formul-grid-row">
+                <p class="text-base text-grey font-bold font-montserrat ">Age 5-7</p>
+                <p class="text-base text-grey font-bold font-montserrat ">YEAR 1-2</p>
+                <p class="text-base text-grey font-bold font-montserrat ">K1</p>
+                <p class="text-base text-grey font-bold font-montserrat ">10</p>
+            </div>
+            <div class="h-16 w-176px bg-green-1 flex flex-row justify-center items-center rounded-tr-2xl rounded-br-2xl"><p class="font-montserrat text-base uppercase text-base font-bold text-white">buy now</p></div>
+        </div>
+
+        <div class="flex flex-row items-end justify-start px-10">
+            <div class="px-10 items-center bg-bcg-lightgrey rounded-tl-2xl rounded-bl-2xl rounded-d-a h-16 uppercase  wi-866px formul-grid-row">
+                <p class="text-base text-grey font-bold font-montserrat ">Age 8-11</p>
+                <p class="text-base text-grey font-bold font-montserrat ">YEAR 3-6</p>
+                <p class="text-base text-grey font-bold font-montserrat ">K2</p>
+                <p class="text-base text-grey font-bold font-montserrat ">10</p>
+            </div>
+            <div class="h-16 w-176px bg-green-2 flex flex-row justify-center items-center rounded-tr-2xl rounded-br-2xl"><p class="font-montserrat text-base uppercase text-base font-bold text-white">buy now</p></div>
+        </div>
+
+        <div class="flex flex-row items-end justify-start px-10">
+            <div class="px-10 items-center bg-bcg-lightgrey rounded-tl-2xl rounded-bl-2xl rounded-d-a h-16 uppercase  wi-866px formul-grid-row">
+                <p class="text-base text-grey font-bold font-montserrat ">Age 12-14</p>
+                <p class="text-base text-grey font-bold font-montserrat ">YEAR 7-9</p>
+                <p class="text-base text-grey font-bold font-montserrat ">K3</p>
+                <p class="text-base text-grey font-bold font-montserrat ">10</p>
+            </div>
+            <div class="h-16 w-176px bg-green-3 flex flex-row justify-center items-center rounded-tr-2xl rounded-br-2xl"><p class="font-montserrat text-base uppercase text-base font-bold text-white">buy now</p></div>
+        </div>
+
+        <div class="flex flex-row items-end justify-start px-10">
+            <div class="px-10 items-center bg-bcg-lightgrey rounded-tl-2xl rounded-bl-2xl rounded-d-a h-16 uppercase  wi-866px formul-grid-row">
+                <p class="text-base text-grey font-bold font-montserrat ">Age 15-16</p>
+                <p class="text-base text-grey font-bold font-montserrat ">YEAR 10-11</p>
+                <p class="text-base text-grey font-bold font-montserrat ">K4</p>
+                <p class="text-base text-grey font-bold font-montserrat ">12</p>
+            </div>
+            <div class="h-16 w-176px bg-green-4 flex flex-row justify-center items-center rounded-tr-2xl rounded-br-2xl"><p class="font-montserrat text-base uppercase text-base font-bold text-white">buy now</p></div>
+        </div>
+
+        <div class="flex flex-row items-end justify-start px-10">
+            <div class="px-10 items-center bg-bcg-lightgrey rounded-tl-2xl rounded-bl-2xl rounded-d-a h-16 uppercase  wi-866px formul-grid-row">
+                <p class="text-base text-grey font-bold font-montserrat ">Age 17-18</p>
+                <p class="text-base text-grey font-bold font-montserrat ">YEAR 12-13</p>
+                <p class="text-base text-grey font-bold font-montserrat ">K5</p>
+                <p class="text-base text-grey font-bold font-montserrat ">12</p>
+            </div>
+            <div class="h-16 w-176px bg-green-5 flex flex-row justify-center items-center rounded-tr-2xl rounded-br-2xl"><p class="font-montserrat text-base uppercase text-base font-bold text-white">buy now</p></div>
+        </div>
+
+<!--        array items end-->
+
+    </section>
+<!--section available lessons end-->
+
 </body>
 </html>

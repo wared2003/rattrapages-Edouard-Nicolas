@@ -10,6 +10,7 @@ module.exports = {
         'light-grey': '#646464',
         'bcg-grey': '#DCDCDC',
         'bcg-lightgrey': '#ECECEC',
+        'extraLightGrey': '#EFEFEF',
         'green': '#2DD393',
         'green-1': '#5ABFAB',
         'green-2': '#56AE9C',

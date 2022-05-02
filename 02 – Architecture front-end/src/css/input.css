@@ -1,3 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 873px;
+}
+
+/*button components*/
+.button{
+    @apply rounded-lg bg-orange text-2xl h-16 w-64 flex flex-row items-center justify-center;
+}
+.button a{
+    @apply font-montserrat text-xl font-semibold text-white uppercase;
+}
+.button:hover{
+    transition: filter .5s;
+    filter: brightness(90%);
+}
+
+.button.button--call{
+    @apply border-orange border h-12 w-64 justify-evenly ;
+    background: none;
+}
+.button.button--call img{
+    @apply h-6 w-6;
+}
+.button.button--call a{
+    @apply text-orange font-semibold text-base;
+}
+
+/*custom width*/
+.m-w-430px{
+    max-width: 430px;
+}
+
+.m-w-980px{
+    max-width: 980px;
+}
+
+.wi-866px{
+    width: 616px;
+}
+.w-176px{
+    width: 176px;
+}
+
+/*contact us card*/
+
+.contact-us img{
+    width: 578px;
+}
+.book-your-demo img{
+    width: 480px;
+}
+.hire-a-tutorimg{
+    width: 293px;
+}
+
+/*section mockup*/
+.mockup{
+    height: 983px;
+}
+.mockup img{
+    width: 1064px;
+}
+
+/*section formule*/
+.formul-grid-row{
+    margin-top: 16px;
+    display: grid;
+    text-align: right;
+    grid-template-columns: 100px  200px 130px 95px;
+
+}
