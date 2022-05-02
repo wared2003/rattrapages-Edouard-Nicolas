@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./*.html"],
   theme: {
     extend: {
       colors: {
@@ -16,7 +16,11 @@ module.exports = {
         'green-3': '#42AA94',
         'green-4': '#379D88',
         'green-5': '#298572',
-      }
+      },
+      fontFamily: {
+        'lato': ['Lato', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif']
+      },
     },
   },
   plugins: [],
