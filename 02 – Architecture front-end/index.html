@@ -54,7 +54,7 @@
 <!--hero banner end-->
 
 <!--statistique-->
-<section class="flex flex-row justify-center gap-x-80 mt-36">
+<section class="flex flex-row justify-center flex-wrap gap-y-32 gap-x-80 mt-36">
     <div class="flex flex-row justify-center items-center max-w-xl gap-x-8">
         <img src="./assets/verified.png" class="h-36 w-36" alt="verified icon">
         <p class="text-3xl text-light-grey">Over <span class="text-grey font-bold font-montserrat">500</span> <br>
@@ -77,7 +77,7 @@
     <h2 class="uppercase text-center text-4xl text-black mb-24">how it works</h2>
 
     <!--        contact us card-->
-    <div class="flex flex-row justify-center gap-32 items-center contact-us">
+    <div class="flex flex-row flex-wrap gap-y-32 justify-center gap-32 items-center contact-us">
         <div>
             <img src="assets/contactUs.png">
         </div>
@@ -103,7 +103,7 @@
     <!--        svg separator end -->
 
     <!--        book your demo card -->
-    <div class="flex flex-row justify-center gap-32 items-center book-your-demo">
+    <div class="flex flex-row flex-wrap gap-y-32 justify-center gap-32 items-center book-your-demo">
         <div class="m-w-430px text-right">
             <h3 class="text-4xl text-grey">Book <span class="text-orange">your Demo</span></h3>
             <p class="text-light-grey text-2xl">
@@ -129,7 +129,7 @@
     <!-- svg separator end  -->
 
     <!-- Hire a tutor -->
-    <div class="flex flex-row justify-center gap-32 items-center hire-a-tutor">
+    <div class="flex flex-row flex-wrap gap-y-32 justify-center gap-32 items-center hire-a-tutor">
         <div>
             <img src="assets/hire-a-tutor.png">
         </div>
@@ -180,10 +180,10 @@
 <!--section mockup end-->
 
 <!--section available lessons-->
-<section class="pt-24 flex flex-row justify-evenly items-center">
+<section class="pt-24 flex flex-row justify-evenly items-center array">
 
     <!--        array-->
-    <div>
+    <div class="array">
         <!--        array header-->
         <div class="flex flex-row items-center justify-between w-fit gap-x-12 px-10 mb-2">
             <div class="px-10 items-center w-fit b bg-orange rounded-2xl h-16 uppercase formul-grid-row wi-866px">
@@ -273,7 +273,7 @@
 
 
 <!--section contact us and vidéo-->
-<section class="pt-24 flex flex-row justify-evenly items-center">
+<section class="pt-24 flex flex-wrap gap-y-32 flex-row justify-evenly items-center contact">
     <img src="./assets/videoImg.png" alt="image de miniature de vidéo youtube" class="w-775px mt-16">
     <div>
         <form class="text-center w-693px p-10 drop-shadow rounded-2xl">
@@ -295,7 +295,7 @@
 
 <!--footer-->
 <footer class="mt-64">
-    <div class="flex flex-row justify-evenly items-center bg-darkGrey h-420px">
+    <div class="hidden md:flex flex-row justify-evenly items-center bg-darkGrey  h-420px">
         <div class="text-xl font-montserrat font-medium text-light-grey-2">
             <a class="block" class="text-grey">information</a>
             <a class="block">About Us</a>
@@ -314,7 +314,7 @@
             <a class="block">Schools</a>
         </div>
 
-        <div class="text-xl font-montserrat font-medium text-light-grey-2 pl-60 border-left text-right">
+        <div class=" hidden lg:block text-xl font-montserrat justify-center md:justify-start font-medium text-light-grey-2 pl-12 xl:pl-60 border-left text-right">
             <img src="assets/logo.png" class="ml-auto mb-10" alt="logo de tutor site au format png">
             <p class="text-base">Contact us</p>
             <p class="text-base">+11 (0) 231 678 0000</p>
@@ -328,13 +328,13 @@
         </div>
 
     </div>
-    <div class="bg-orange font-montserrat px-36 h-20 w-full m-0 flex flex-row items-center justify-between">
-        <div class="flex justify-start items-center flex-row text-grey gap-16 font-base h-full w-fit">
+    <div class="bg-orange font-montserrat px-20 lg:px-36 h-20 w-full m-0 flex flex-col md:flex-row items-center justify-center md:justify-between">
+        <div class="hidden md:flex  items-center flex-row text-grey gap-x-6 lg:gap-16 font-base h-full w-fit">
             <a href="#">sitemap</a>
             <a href="#">Privacy Policy</a>
             <a href="#">Trust & Security</a>
         </div>
-        <div class="flex items-center justify-end flex-row text-grey font-base h-full w-fit">
+        <div class=" flex items-center justify-end flex-row text-grey font-base h-full w-fit">
             <a class="text-right">Copyright © 2021, Tutor Site</a>
         </div>
     </div>

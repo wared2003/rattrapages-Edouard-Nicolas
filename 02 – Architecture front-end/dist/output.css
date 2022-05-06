@@ -537,10 +537,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: auto;
 }
 
-.mt-12 {
-  margin-top: 3rem;
-}
-
 .block {
   display: block;
 }
@@ -551,6 +547,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-36 {
@@ -607,6 +607,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: row;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -650,6 +654,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gap-x-8 {
   -moz-column-gap: 2rem;
        column-gap: 2rem;
+}
+
+.gap-y-32 {
+  row-gap: 8rem;
 }
 
 .gap-x-80 {
@@ -808,6 +816,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 2.5rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -828,12 +841,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 15rem;
 }
 
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .text-right {
   text-align: right;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .font-montserrat {
@@ -1104,4 +1129,131 @@ input::placeholder{
 
 .border-left{
   border-left: 1px solid #707070;
+}
+
+@media only screen and (max-width: 1400px){
+  nav.px-36 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  section.array{
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section.array > div > p{
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  div.array{
+    width: 98%;
+  }
+
+  div.array > div:first-child{
+    display: none;
+  }
+
+  div.array > div:first-child > p{
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    display: none;
+  }
+
+  div.array > div{
+    width: 100%;
+    padding: 0px;
+    margin: 10px auto;
+    justify-content: center;
+  }
+
+  div.array > div  p{
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 820px ) {
+  div.array > div:first-child{
+    display: none;
+  }
+
+  .contact form{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .contact form input{
+    width: 98%;
+    height: 50px;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .sm\:pl-12 {
+    padding-left: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:gap-16 {
+    gap: 4rem;
+  }
+
+  .lg\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:pl-60 {
+    padding-left: 15rem;
+  }
 }
