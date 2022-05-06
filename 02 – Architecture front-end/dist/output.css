@@ -468,6 +468,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -476,12 +480,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .bottom-12 {
   bottom: 3rem;
 }
 
 .right-0 {
   right: 0px;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.left-5 {
+  left: 1.25rem;
+}
+
+.right-5 {
+  right: 1.25rem;
 }
 
 .m-0 {
@@ -537,6 +558,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: auto;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -577,6 +606,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -593,6 +638,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .max-w-xl {
@@ -682,6 +735,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gap-x-6 {
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
+}
+
+.gap-y-12 {
+  row-gap: 3rem;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem;
 }
 
 .rounded-full {
@@ -1238,12 +1299,33 @@ input::placeholder{
 }
 
 @media (min-width: 1024px) {
+  .lg\:mt-52 {
+    margin-top: 13rem;
+  }
+
   .lg\:block {
     display: block;
   }
 
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:gap-16 {
     gap: 4rem;
+  }
+
+  .lg\:gap-x-8 {
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+
+  .lg\:bg-none {
+    background-image: none;
   }
 
   .lg\:px-36 {
