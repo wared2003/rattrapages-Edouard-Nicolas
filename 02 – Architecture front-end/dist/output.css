@@ -1324,6 +1324,10 @@ input::placeholder{
          column-gap: 2rem;
   }
 
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+
   .lg\:bg-none {
     background-image: none;
   }
