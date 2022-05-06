@@ -2,7 +2,7 @@
 
 ## Rattrapage S1 edouard nicolas avec le framework tailwind
 
-## Getting Started
+## https://rattrapages-edouard-nicolas.vercel.app/
 
 ### utilise tailwindcss, le readme se base sur un template de readme
 
